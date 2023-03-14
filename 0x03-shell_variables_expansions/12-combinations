@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {ao..oz}{zo..oa} | tr ' ' '\n' | grep -v 'oo'
